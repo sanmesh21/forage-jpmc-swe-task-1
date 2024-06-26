@@ -16,8 +16,7 @@
 #  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 #  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 #  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-#  DEALINGS IN THE SOFTWARE.
-
+ 
 import json
 import random
 import urllib.request
@@ -28,7 +27,8 @@ QUERY = "http://localhost:8080/query?id={}"
 # 500 server request
 N = 500
 
-# this is to check my git command is working or not correctly 
+# this is to check my git command is working or not correctly
+# THis is to inform hrishikesh about git push  
 def getDataPoint(quote):
     """ Produce all the needed values to generate a datapoint """
     """ ------------- Update this function ------------- """

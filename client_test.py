@@ -1,6 +1,6 @@
 import unittest
 from client3 import getDataPoint
-
+# Test creation is done
 class ClientTest(unittest.TestCase):
   def test_getDataPoint_calculatePrice(self):
     quotes = [
